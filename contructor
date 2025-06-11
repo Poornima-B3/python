@@ -1,0 +1,11 @@
+import time
+class Teachers:
+    def __initi__(self):
+        self.Name="Poornima"
+        self.Subject="English"
+        self.Student="Keerthi"
+i1=Teachers()
+print(i1.Name,i1.Subject,i1.Student) 
+print() 
+time.sleep(2)
+print("End of an application")      
